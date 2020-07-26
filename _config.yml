@@ -9,6 +9,12 @@ email: aivagiorgos@gmail.com
 github_username:  aivatoglou
 linkedin_username: aivatoglou
 
+# Additional icon links
+additional_links:
+- title: CV
+  icon: fa-file-pdf
+  url: https://www.dropbox.com/s/xg31h4qmxni2ml5/CV.pdf?dl=0
+
 # About Section
 about_title: About Me
 about_profile_image: images/profile.jpg
