@@ -42,4 +42,4 @@ sass:
 plugins:
  - jekyll-seo-tag
 
-darkmode: true
+darkmode: false
