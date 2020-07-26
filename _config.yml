@@ -4,7 +4,7 @@ favicon: images/favicon.ico
 
 # Personal info
 name: Giorgos Aivatoglou
-title: Computer Engineer | Data Analyst
+title: Data Analyst | Computer Engineer
 email: aivagiorgos@gmail.com
 github_username:  aivatoglou
 linkedin_username: aivatoglou
@@ -19,7 +19,7 @@ additional_links:
 about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Giorgos Aivatoglou.
+  Hi, my name is Giorgos Aivatoglou.
 
 # Projects Section
 # projects_title: Projects
