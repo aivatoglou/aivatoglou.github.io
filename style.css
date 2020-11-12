@@ -12,7 +12,6 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: #101214;
     color: #7A7C80;
-
 }
 
 h2,.white{
@@ -102,4 +101,34 @@ a{
         padding-left: 1.5rem;
         padding-top: 2rem;
     }
+}
+
+.round-button {
+    display:flex;
+    width:50px;
+    height:50px;
+    line-height:50px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    color:#f5f5f5;
+    text-align:center;
+    text-decoration:none;
+    background: #777555;
+    box-shadow: 0 0 3px gray;
+    font-size:20px;
+    font-weight:bold;
+    outline:none;
+    position:fixed;
+    bottom:25px;
+    right:25px;
+    justify-content:center;
+    align-items:center;
+}
+
+.round-button:hover {
+    transform: scale(1.1) perspective(1px)
+}
+
+.holds-the-iframe {
+  background:url(images/loading.gif) center center no-repeat;
 }

@@ -27,7 +27,7 @@
             <a href="https://github.com/aivatoglou"><i class="fab fa-github"></i></a>
             <a href="https://www.dropbox.com/s/lora4nsf6gautg0/CV.pdf?dl=0"><i class="fa fa-address-card"></i></a>
 	    <a href="https://scholar.google.com/citations?user=xbwXOUkAAAAJ&hl=en&oi=ao"><i class="fa fa-graduation-cap"></i></a>
-	    <a href="https://chat-bot-cv.herokuapp.com"><i class="fas fa-robot"></i></a>
+	    <!--<a href="https://chat-bot-cv.herokuapp.com"><i class="fas fa-robot"></i></a>-->
         </div>
         <div class="section-2">
             <h2>About</h2>
@@ -43,5 +43,17 @@
             <p>aivagiorgos@gmail.com</p>
         </div>
     </div>
+    <div class="holds-the-iframe"><iframe src="https://chat-bot-cv.herokuapp.com/" id="bot-iframe" scrolling="no" height="1000" width="100%" align="center" frameborder="0" style="display: none;";></iframe></div>
+    <button class="round-button" onclick="botShow()"><i class="fas fa-robot"></i></button>
+    <script type="text/javascript">
+    	function botShow() {
+    		if (document.getElementById("bot-iframe").style.display === "none"){
+    			document.getElementById("bot-iframe").style.display = "block";
+    			window.scrollTo(0,document.body.scrollHeight);
+    		} else {
+    			document.getElementById("bot-iframe").style.display = "none";
+    		}
+    	}
+    </script>
 </body>
 </html>
