@@ -167,10 +167,10 @@ a{
     transition: .2s;
 }
 
-#chb_theme + label::before {color: #BDBDBD;}
+#chb_theme + label::before {color: #FFD740;}
 
-#chb_theme + label:hover::before {color: #9E9E9E;}
+#chb_theme + label:hover::before {color: #bfa132;}
 
-#chb_theme:checked + label::before {color: #FFD740;}
+#chb_theme:checked + label::before {color: #BDBDBD;}
 
-#chb_theme:checked + label:hover::before {color: #bfa132;}
+#chb_theme:checked + label:hover::before {color: #9E9E9E;}
