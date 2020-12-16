@@ -60,7 +60,7 @@ a{
 
 .section-1 h3{
     font-size: 1.1rem;
-    var(--accent);
+    background-color: var(--accent);
 }
 
 .section-1 a{
