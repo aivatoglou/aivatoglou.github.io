@@ -2,15 +2,20 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 :root {
-    --background: #101214;
+    /* #101214 */
+    --background: #0d1117;
     --accent: #fff;
     --hover: #fff;
+    --ptag: #8b849e;
+    --icons: #fff;
 }
 
 [theme="light"] {
-    --background: #fff;
-    --accent: #101214;
-    --hover: #101214;
+    --background: #dee4e7;
+    --accent: #000;
+    --hover: #000;
+    --ptag: #34393f;
+    --icons: #000;
 }
 
 .grid-2{
@@ -45,6 +50,7 @@ a{
     font-size: 1.1rem;
     padding-bottom: 10px;
     margin:0;
+    color: var(--ptag);
 }
 
 .section-1 h2{
@@ -55,6 +61,7 @@ a{
 .section-1 a{
     font-size: 1.5rem;
     padding: 10px;
+    color: var(--icons);
 }
 /* section 2 */
 .section-2{
@@ -71,6 +78,7 @@ a{
     font-size: 1.1rem;
     padding-bottom: 10px;
     margin:0;
+    color: var(--ptag);
 }
 
 .section-2 a{
@@ -80,6 +88,7 @@ a{
     padding-left: 0;
     width: 100px;
 }
+
 /* animations / utilities */
 .section-2 a:hover{
     font-size: 1.3rem;
