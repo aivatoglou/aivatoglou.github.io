@@ -1,19 +1,25 @@
 /* global */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+html {
+  overflow:   scroll;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
 :root {
     /* #101214 */
     --background: #0d1117;
     --accent: #fff;
     --ptag: #8b849e;
-    --icons: #fff;
 }
 
 [theme="light"] {
     --background: #dee4e7;
     --accent: #000;
     --ptag: #34393f;
-    --icons: #000;
 }
 
 .grid-2{
@@ -59,7 +65,7 @@ a{
 .section-1 a{
     font-size: 1.5rem;
     padding: 10px;
-    color: var(--icons);
+    color: #777555;
 }
 
 /* section 2 */
@@ -139,8 +145,8 @@ a{
     font-weight:bold;
     outline:none;
     position:fixed;
-    bottom:25px;
-    right:25px;
+    bottom:20px;
+    right:20px;
     justify-content:center;
     align-items:center;
 }
