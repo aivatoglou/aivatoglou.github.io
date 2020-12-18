@@ -47,17 +47,22 @@
         </div>
     </div>
     <script src="js/theme.js"></script>
-    <div class="holds-the-iframe"><iframe id="bot-iframe" scrolling="no" height="350" width="100%" align="center" frameborder="0" style="display: none; position: absolute; top: 0; left:0; right:0; opacity: .9;";></iframe></div>
-    <button class="round-button" onclick="botShow()"><i class="fas fa-robot"></i></button>
+    <div class="holds-the-iframe">
+        <iframe id="bot-iframe" scrolling="no" height="350" width="100%" align="center" frameborder="0" style="display: none; position: absolute; top: 0; left:0; right:0; opacity: .9;";></iframe>
+    </div>
+    <button id="robot-button" class="round-button" onclick="botShow()"><i class="fas fa-robot"></i></button>
     <script type="text/javascript">
     	function botShow() {
     		if (document.getElementById("bot-iframe").style.display === "none"){
-    			document.getElementById("bot-iframe").src = "https://chat-bot-cv.herokuapp.com/"
+    			document.getElementById("bot-iframe").src = "https://chat-bot-cv.herokuapp.com/";
     			document.getElementById("bot-iframe").style.display = "block";
+                document.getElementById("main").style.filter = "blur(1.5px)";
+
     			/*window.scrollTo(0,document.body.scrollHeight); */
                 /*document.getElementById("main").style.display = "none";*/
     		} else {
     			document.getElementById("bot-iframe").style.display = "none";
+                document.getElementById("main").style.removeProperty("filter");
                 /*window.scrollTo(0,0);*/
                 /*document.getElementById("main").style.display = "block";*/
     		}

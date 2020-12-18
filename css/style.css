@@ -4,6 +4,7 @@
 html {
   overflow:   scroll;
 }
+
 ::-webkit-scrollbar {
     width: 0px;
     background: transparent; /* make scrollbar transparent */
@@ -156,7 +157,7 @@ a{
 }
 
 .holds-the-iframe {
-  /*background:url(../images/loading.gif) center center no-repeat;*/
+  background:url(../images/loading.gif) center center no-repeat;
 }
 
 #chb_theme {display: none;}
