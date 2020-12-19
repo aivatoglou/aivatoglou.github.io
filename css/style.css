@@ -156,10 +156,6 @@ a{
     transform: scale(1.1) perspective(1px)
 }
 
-.holds-the-iframe {
-  background:url(../images/loading.gif) center center no-repeat;
-}
-
 #chb_theme {display: none;}
 
 .btn_theme {
