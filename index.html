@@ -19,7 +19,7 @@
 </head>
 <body>
     <input type="checkbox" id="chb_theme">
-    <label class="btn_theme" for="chb_theme"></label>
+    <label class="btn_theme" for="chb_theme" title="Toggle Light/Dark theme"></label>
     <div class="grid-2" id="main">
         <div class="section-1">
             <i class="fas fa-code fa-5x white"></i>
@@ -48,7 +48,7 @@
     </div>
     <script src="js/theme.js"></script>
     <div id="parent-div"><iframe id="bot-iframe" scrolling="no" height="350" width="100%" align="center" frameborder="0" style="display: none; position: absolute; top: 0; left:0; right:0; opacity: .9; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; "></iframe></div>
-    <button id="robot-button" class="round-button" onclick="botShow()"><i class="fas fa-robot"></i></button>
+    <button id="robot-button" class="round-button" onclick="botShow()" title="Toggle Chat-bot popup"><i class="fas fa-robot"></i></button>
     <script type="text/javascript">
     	function botShow() {
     		if (document.getElementById("bot-iframe").style.display === "none"){
@@ -63,5 +63,11 @@
     		}
     	}
     </script>
+    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+  	<script>
+    	window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+    	formbutton("create", {styles: {button: {background: "#C4001A", width: "50px", height: "50px", bottom: "5px", right: "5px", border: "solid #f5f5f5"}}, action: "https://formspree.io/f/mknppbkl", buttonImg: "<i class='fas fa-comment-alt' style='font-size:20px'/>",
+    	title: "Get in touch"});
+  	</script>
 </body>
 </html>
