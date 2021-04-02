@@ -135,13 +135,12 @@ a{
     width:45px;
     height:45px;
     line-height:50px;
-    border: 2px solid #C4001A;
-    border-radius: 50%;
-    color:#f5f5f5;
+    border: 0px;
+    border-radius: 30px;
+    color: white;
     text-align:center;
     text-decoration:none;
     background: #C4001A;
-    /*box-shadow: 0 0 3px #C4001A;*/
     font-size:20px;
     font-weight:bold;
     outline:none;
@@ -150,7 +149,7 @@ a{
     right:20px;
     justify-content:center;
     align-items:center;
-    /*box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 2px 0px inset, rgba(0, 0, 0, 0.1) 0px -4px 8px 0px inset, rgba(22, 22, 22, 0.5) 0.3em 0.3em 1.4em;*/
+    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 2px 0px inset, rgba(0, 0, 0, 0.1) 0px -4px 8px 0px inset, rgba(22, 22, 22, 0.5) 0.3em 0.3em 1.4em;
 }	
 
 button:hover {
