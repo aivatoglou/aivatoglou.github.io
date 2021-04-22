@@ -132,8 +132,8 @@ a{
 
 .round-button {
     display:flex;
-    width:45px;
-    height:45px;
+    width:40px;
+    height:40px;
     line-height:50px;
     border: 0px;
     border-radius: 30px;
@@ -160,11 +160,13 @@ button:hover {
 #chb_theme {display: none;}
 
 .btn_theme {
-    position: fixed;
-    top: 20px;
-    right: 20px;
+    position: absolute;
+    display: block;
+    top: 7px;
+    right: 12px;
     transform: rotate(-25deg);
     z-index: 1;
+    text-align: center;
 }
 
 #chb_theme + label::before,
@@ -173,7 +175,7 @@ button:hover {
 #chb_theme:checked + label:hover::before {
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
-    font-size: 20px;
+    font-size: 15px;
     content: "\f186";
     cursor: pointer;
     transition: .2s;
@@ -186,3 +188,20 @@ button:hover {
 #chb_theme:checked + label::before {color: #BDBDBD;}
 
 #chb_theme:checked + label:hover::before {color: #9E9E9E;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2f2e42;
+}
+
+
+li a {
+  display: block;
+  color: #f5b498;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+}
