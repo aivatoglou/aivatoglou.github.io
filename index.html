@@ -19,7 +19,7 @@
 </head>
 <body>
 	<ul>
-  		<li><a class="fas fa-code"></a></li>
+  		<li><a class="fas fa-hashtag"> <script> document.write(new Date().toLocaleDateString());</script></a></li>
   		<input type="checkbox" id="chb_theme">
     	<label class="btn_theme" for="chb_theme" title="Toggle Light/Dark theme"></label>
 	</ul>
@@ -69,7 +69,8 @@
     <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
   	<script>
     	window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
-    	formbutton("create", {styles: {button: {background: "#C4001A", width: "40px", height: "40px", bottom: "0px", right: "0px"}}, action: "https://formspree.io/f/mknppbkl", buttonImg: "<i class='fas fa-comment-alt' style='font-size:20px'/>", title: "Get in touch"});
+    	formbutton("create",{styles: {fontFamily: "Roboto", title: {background: "#2f2e42"},button: {background: "#2f2e42", width: "40px", height: "40px",bottom: "0px", right: "0px", boxShadow: "none"}}, action: "https://formspree.io/f/mknppbkl", buttonImg: "<i class='fas fa-comment-alt' style='font-size:20px'/>", title: "Get in touch"
+    	});
   	</script>
 </body>
 </html>

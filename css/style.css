@@ -66,7 +66,7 @@ a{
 .section-1 a{
     font-size: 1.5rem;
     padding: 10px;
-    color: #C4001A;
+    color: #2f2e42;
 }
 
 /* section 2 */
@@ -140,7 +140,7 @@ a{
     color: white;
     text-align:center;
     text-decoration:none;
-    background: #C4001A;
+    background: #2f2e42;
     font-size:20px;
     font-weight:bold;
     outline:none;
@@ -149,7 +149,7 @@ a{
     right:20px;
     justify-content:center;
     align-items:center;
-    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 2px 0px inset, rgba(0, 0, 0, 0.1) 0px -4px 8px 0px inset, rgba(22, 22, 22, 0.5) 0.3em 0.3em 1.4em;
+    /*box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 2px 0px inset, rgba(0, 0, 0, 0.1) 0px -4px 8px 0px inset, rgba(22, 22, 22, 0.5) 0.3em 0.3em 1.4em;*/
 }	
 
 button:hover {
@@ -165,7 +165,6 @@ button:hover {
     top: 7px;
     right: 12px;
     transform: rotate(-25deg);
-    z-index: 1;
     text-align: center;
 }
 
