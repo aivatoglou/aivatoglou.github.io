@@ -85,6 +85,9 @@ a{
     padding-bottom: 10px;
     margin:0;
     color: var(--ptag);
+    text-align: justify;
+  	text-justify: inter-word;
+  	max-width: 400px;
 }
 
 .section-2 a{
