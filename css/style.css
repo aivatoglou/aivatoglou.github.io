@@ -41,7 +41,7 @@ h2,.white{
 }
 
 a{
-    color: #7A7C80;
+    @color: #7A7C80;
     text-decoration: none;
 }
 /* section 1 */
@@ -66,7 +66,7 @@ a{
 .section-1 a{
     font-size: 1.5rem;
     padding: 10px;
-    color: #2f2e42;
+    color: var(--accent);
 }
 
 /* section 2 */
@@ -199,7 +199,7 @@ ul {
 
 li a {
   display: block;
-  color: #f5b498;
+  color: #FFD740;
   text-align: center;
   padding: 8px 16px;
   text-decoration: none;
